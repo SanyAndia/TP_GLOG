@@ -21,12 +21,12 @@ public class Humain {
         return "Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age;
     }  
     
-    //méthode boire et manger
-    public void manger() {
-    	System.out.println("l'Humain mange");
+   //méthode ami
+    public void ami(Humain ami) {
+        ami.amitie(100);
     }
-    public void boire() {
-    	System.out.println("l'Humain boit");
+    protected void amitie(int dureeEnJours) {
+        System.out.println("Amitié établie pour " + dureeEnJours + " jours.");
     }
 
 }
