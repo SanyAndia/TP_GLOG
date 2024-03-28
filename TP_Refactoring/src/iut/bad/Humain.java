@@ -19,6 +19,14 @@ public class Humain {
     @Override
     public String toString() {
         return "Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age;
-    }    
+    }  
+    
+    //méthode boire et manger
+    public void manger() {
+    	System.out.println("l'Humain mange");
+    }
+    public void boire() {
+    	System.out.println("l'Humain boit");
+    }
 
 }
